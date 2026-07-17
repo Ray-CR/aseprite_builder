@@ -1,5 +1,6 @@
 name: Build and deploy Aseprite
-
+permissions:
+  contents: write
 on:
   workflow_dispatch:
   schedule:
